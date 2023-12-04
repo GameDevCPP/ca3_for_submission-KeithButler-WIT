@@ -1,8 +1,8 @@
 #pragma once
 #include <SFML/Graphics/RenderWindow.hpp>
-#include <ecm.h>
+#include "../lib_ecm/ecm.h"
 #include <future>
-#include <maths.h>
+#include "../lib_maths/maths.h"
 #include <mutex>
 #include <string>
 

@@ -24,7 +24,8 @@ bool isVisible = false;
 float angle;
 Vector2f mousePos;
 
-auto temp2 = Texture::Texture();
+//auto temp2 = Texture::Texture();
+Texture temp2;
 auto spriteTexture = make_shared<Texture>(temp2);
 
 ShootingComponent::ShootingComponent(Entity* p) : ActorMovementComponent(p) {
